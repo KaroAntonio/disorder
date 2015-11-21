@@ -1,0 +1,62 @@
+body {
+    /*background-image: url("assets/maneki.gif");*/
+    background-repeat: repeat;
+    background-position:center;
+    margin: 0px;
+    border: 0px;
+    background-attachment: fixed;
+    cursor:default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.line{
+    cursor:pointer;
+}
+
+#content {
+    /*text-decoration: line-through;*/
+    
+    position: absolute;
+    padding-top: 10vh;
+    padding-left: 10vw;
+    padding-right: 20vw;
+    height: 100vh;
+    width: 80vw;
+    text-align: center;
+    /*font-family: sans-serif;*/
+    /*font-family:monospace;*/
+    font-size: 30px;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    
+}
+
+#info_button {
+    text-align: right;
+    width: 2vw;
+    z-index: 10;
+    cursor: pointer;
+    position: fixed;
+    padding-top: 2vh;
+    padding-left: 94vw;
+    font-size: 25px;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#info {
+    visibility: hidden;
+    padding-top: 2vh;
+    font-size: 25px;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    width: 100vw;
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+}
